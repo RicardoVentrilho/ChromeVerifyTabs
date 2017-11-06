@@ -1,0 +1,1 @@
+Chrome.VerifyTabs.Application "Google Translate" "www.google.com.br"
