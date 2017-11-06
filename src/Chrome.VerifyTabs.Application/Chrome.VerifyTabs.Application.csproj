@@ -53,4 +53,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy $(OutDir)*.exe $(SolutionDir)bash \y
+cd $(SolutionDir)bash</PostBuildEvent>
+  </PropertyGroup>
 </Project>
